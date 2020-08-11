@@ -1,1 +1,2 @@
-worker: python covid19.py
+
+web: gunicorn covid19.wsgi
